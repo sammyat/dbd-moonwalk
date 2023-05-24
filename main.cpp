@@ -17,7 +17,7 @@ int main()
 	//moonwalk loop
 	while (true)
 	{
-		//if mouse 4 button, you can change it to any other key tho
+		//if selected button was pressed
 		if (GetAsyncKeyState(virtualkey))
 		{
 			//0x41 = a  |  0x44 = d
